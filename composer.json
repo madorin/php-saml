@@ -1,8 +1,8 @@
 {
-    "name": "onelogin/php-saml",
+    "name": "madorin/php-saml",
     "description": "PHP SAML Toolkit",
     "license": "MIT",
-    "homepage": "https://github.com/SAML-Toolkits/php-saml",
+    "homepage": "https://github.com/madorin/php-saml",
     "keywords": ["saml", "saml2", "sso", "federation", "identity"],
     "autoload": {
         "psr-4": {
@@ -10,12 +10,12 @@
         }
     },
     "support": {
-        "email": "sixto.martin.garcia@gmail.com",
-        "issues": "https://github.com/onelogin/SAML-Toolkits/issues",
-        "source": "https://github.com/onelogin/SAML-Toolkits/"
+        "email": "dorin.marcoci@gmail.com",
+        "issues": "https://github.com/madorin/php-saml/issues",
+        "source": "https://github.com/madorin/php-saml/"
     },
     "require": {
-        "php": ">=7.3",
+        "php": ">=8.2",
         "robrichards/xmlseclibs": "^3.1"
     },
     "require-dev": {
@@ -28,7 +28,7 @@
     },
     "config": {
         "platform": {
-            "php": "7.3.0"
+            "php": "8.2.0"
         },
         "optimize-autoloader": true,
         "sort-packages": true
